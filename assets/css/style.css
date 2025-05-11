@@ -1,0 +1,138 @@
+:root {
+    --primary: #00B98E;
+    --secondary: #FF6922;
+    --light: #EFFDF5;
+    --dark: #0E2E50;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+nav {
+    width: 100%;
+    background-color: white;
+    padding: 0 24px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    box-shadow: 0px 5px 20px rgb(180, 180, 180);
+    position: fixed;
+}
+
+nav .logo {
+    display: flex;
+}
+
+nav .logo .fluid-icon {
+    display: inline-block;
+    width: 46px;
+    height: 46px;
+    padding: 8px;
+    margin-right: 8px;
+}
+
+nav .logo i {
+    display: inline-block;
+    background-image: url('/assets/image/icon-deal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+nav .logo h1 {
+    font-size: 40px;
+    color: var(--primary);
+}
+
+nav .tab {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+}
+
+nav .tab ul {
+    list-style: none;
+    display: flex;
+    justify-content: right;
+}
+
+nav .tab ul li a {
+    font-size: 15px;
+    color: #666565;
+    padding: 25px 0;
+    margin-right: 30px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+nav .tab-add a {
+    margin-top: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: var(--primary);
+    color: white;
+    border-radius: 4px;
+}
+
+header .head {
+    width: 100%;
+    height: 665px;
+    background-color: var(--light);
+    display: flex;
+    justify-content: space-between;
+}
+
+header .head .head-text {
+    width: 50%;
+    padding: 48px;
+    margin-top: 123px;
+}
+
+header .head .head-text .title h1 {
+    font-size: 48px;
+    color: var(--dark);
+    margin-bottom: 24px;
+}
+
+header .head .head-text .title span {
+    color: var(--primary);
+}
+
+header .head .head-text .text p {
+    margin-bottom: 24px;
+    padding-bottom: 8px;
+    color: #666565;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+
+header .head .head-text .btn a {
+    padding: 16px 48px;
+    font-size: 16px;
+    background-color: var(--primary);
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+header .btn a:hover {
+    background-color: #00ce9e;
+    transition: all 1s ease;
+}
+
+header .head .head-image {
+    width: 50%;
+    height: 100%;
+    background-image: url('/assets/image/carousel-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
