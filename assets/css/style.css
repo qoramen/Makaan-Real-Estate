@@ -1,9 +1,13 @@
+/* --- Colors --- */
+
 :root {
     --primary: #00B98E;
     --secondary: #FF6922;
     --light: #EFFDF5;
     --dark: #0E2E50;
 }
+
+/* --- Body --- */
 
 * {
     padding: 0;
@@ -13,6 +17,10 @@
     text-decoration: none;
     list-style: none;
 }
+
+/* --- Header --- */
+
+/* Navbar */
 
 nav {
     width: 100%;
@@ -80,6 +88,8 @@ nav .tab-add a {
     color: white;
     border-radius: 4px;
 }
+
+/* Header Main */
 
 header .head {
     width: 100%;
@@ -795,7 +805,7 @@ header .head .head-image {
     color: #666565;
 }
 
-/* --- Footer Sectoin */
+/* --- Footer Sectoin --- */
 
 footer {
     margin-top: 48px;
